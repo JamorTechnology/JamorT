@@ -1,11 +1,16 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import SignUp from './pages/SignUp'
 
 function App() {
   return (
     <>
-    <div className='text-3xl'>Hello World</div>
+      <Router>
+        <Routes>
+          <Route path='/' element={<SignUp />} />
+        </Routes>
+      </Router>
     </>
-
   )
 }
 
