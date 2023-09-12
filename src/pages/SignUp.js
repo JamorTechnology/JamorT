@@ -21,19 +21,19 @@ function SignUp() {
           </h2>
           <form action="" className='w-3/4 m-auto text-slate-500'>
             <label htmlFor="fname"> First Name</label> <br />
-            <input type="text" name="fname" id="fname" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' /> <br /><br />
+            <input type="text" name="fname" id="fname" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' required/> <br /><br />
             <label htmlFor="lname"> Last Name</label> <br />
-            <input type="text" name="lname" id="lname" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' /> <br /><br />
+            <input type="text" name="lname" id="lname" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' required/> <br /><br />
             <label htmlFor="uname"> Username </label> <br />
-            <input type="text" name="uname" id="uname" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' /> <br /><br />
+            <input type="text" name="uname" id="uname" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' required/> <br /><br />
             <label htmlFor="email">Email</label> <br />
-            <input type="email" name="email" id="email" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' /> <br /><br />
+            <input type="email" name="email" id="email" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' required/> <br /><br />
             <label htmlFor="tel">Phone Number</label> <br />
-            <input type="tel" name="tel" id="tel" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' /> <br /><br />
+            <input type="tel" name="tel" id="tel" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' required/> <br /><br />
             <label htmlFor="School"> Tech school you graduated from </label> <br />
-            <input type="text" name="School" id="School" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' /> <br /><br />
+            <input type="text" name="School" id="School" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' required/> <br /><br />
             <label htmlFor="skill"> Skill Set </label> <br />
-            <input type="text" name="skill" id="skill" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' /> <br /><br />
+            <input type="text" name="skill" id="skill" className='w-full outline outline-slate-300 h-10 rounded px-2 mt-2' required/> <br /><br />
             <label htmlFor="cert"> Certificate Earned </label> <br />
             <input type="file" name="cert" id="cert" accept='.pdf' className='w-full outline outline-slate-300 h-10 rounded px-2 pt-[0.34rem] mt-2' /> <br /><br />
             <label htmlFor="package">Internship Package</label> <br />
@@ -61,7 +61,7 @@ function SignUp() {
             </label>
             <p className='text-center text-lg my-10'>Already have an account?
               <span className='text-[#250C77] font-semibold'>
-                <Link to='/'> Sign In</Link>
+                <Link to='/login'> Sign In</Link>
               </span>
             </p>
             <input type="submit" value="Sign Up" className='w-full bg-[#250C77] py-3 rounded-md text-white text-lg' />

@@ -17,7 +17,7 @@ function Header() {
           <Link to='/'  className='hover:text-slate-500'>Join Us</Link>
         </div>
         <div className="flex heading">
-          <Link to='/' className="border-2 border-[#250C77] hover:bg-[#250C77] hover:text-white py-2 px-4 rounded-md text-[#250C77] text-lg">Sign In</Link>
+          <Link to='/login' className="border-2 border-[#250C77] hover:bg-[#250C77] hover:text-white py-2 px-4 rounded-md text-[#250C77] text-lg">Sign In</Link>
           <Link to='/signup' className="bg-[#250C77] hover:bg-white hover:outline hover:outline-[#250C77] hover:text-[#250C77] py-2 px-4 rounded-md text-white text-lg ml-2">Get Started</Link>
         </div>
       </nav>
